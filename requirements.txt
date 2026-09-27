@@ -1,0 +1,16 @@
+# AI & Computer Vision Dependencies
+opencv-contrib-python
+numpy
+mediapipe==0.10.14
+ultralytics
+
+# Database & Environment Configuration
+supabase
+python-dotenv
+
+# API & Backend Infrastructure
+fastapi
+uvicorn
+pydantic
+httpx
+pytest
