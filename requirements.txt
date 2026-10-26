@@ -3,6 +3,8 @@ opencv-contrib-python
 numpy
 mediapipe==0.10.14
 ultralytics
+sounddevice
+webrtcvad-wheels
 
 # Database & Environment Configuration
 supabase

@@ -18,6 +18,8 @@ class AttendanceService:
     def __init__(self):
         # Initialize the Supabase client once per service lifecycle
         self.supabase = get_supabase_client()
+        # session_id -> set of student_ids marked present
+        self._marked_cache = {}
 
     def mark_attendance(self, student_id, session_id, confidence):
         """
@@ -25,6 +27,12 @@ class AttendanceService:
         Prevents duplicate entries (student marked present twice in same session).
         """
         try:
+            if session_id not in self._marked_cache:
+                self._marked_cache[session_id] = set()
+
+            if student_id in self._marked_cache[session_id]:
+                return False, "Already marked"
+
             # 1. Verification: Query database to see if record already exists
             response = self.supabase.table("attendance") \
                         .select("id") \
@@ -33,6 +41,7 @@ class AttendanceService:
                         .execute()
             
             if response.data and len(response.data) > 0:
+                self._marked_cache[session_id].add(student_id)
                 print(f"Notice: Attendance was already marked for student ID {student_id} in this session.")
                 return False, "Already marked"
 
@@ -47,7 +56,7 @@ class AttendanceService:
             
             # Send payload to Supabase
             insert_response = self.supabase.table("attendance").insert(new_record).execute()
-            
+            self._marked_cache[session_id].add(student_id)
             print(f"Success: Marked attendance for student ID {student_id} with confidence {confidence:.2f}%.")
             return True, insert_response.data
             

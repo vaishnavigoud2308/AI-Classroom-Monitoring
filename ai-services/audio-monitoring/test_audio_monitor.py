@@ -141,13 +141,17 @@ def test_7_and_8():
     if frame is None:
         frame = 255 * np.ones((480, 640, 3), dtype=np.uint8)
         
-    # Get a cached FaceMesh run to prevent tracking dropout with identical stationary frames
-    original_process = detector.face_mesh.process
-    cached_mesh_results = original_process(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
-    detector.face_mesh.process = lambda x: cached_mesh_results
+    class MockLM:
+        x, y, z = 0.5, 0.5, 0.0
+    mock_landmarks = [MockLM() for _ in range(468)]
+    class MockResults:
+        multi_face_landmarks = [type('FaceObj', (), {'landmark': mock_landmarks})()]
+    detector.face_mesh.process = lambda x: MockResults()
+    detector._estimate_head_pose = lambda *args: (0.0, 0.0, 0.0)
     
     # Mock out EAR/MAR evaluation for controllable tests
     detector._calculate_ear = lambda *args: 0.25 # Awake
+    detector._detect_phone = lambda *args: (False, 0.0)
     
     t = 0.0
     final_alert = None

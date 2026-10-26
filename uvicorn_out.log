@@ -1,0 +1,1088 @@
+[API] Starting AI Classroom Infrastructure Layer
+[INFO] ClassroomActivityDetector loaded successfully.
+[INFO] AlertEngine initialized.
+Successfully loaded facial data for Smoke Test Student (SMOKE8784).
+Successfully loaded facial data for vamshi (p6).
+Successfully loaded facial data for vaishu (p5).
+Successfully loaded facial data for balammaa (14).
+AI Model successfully trained on registered students.
+[API] Face model bootstrap: {'registered': 4, 'skipped': 1, 'trained': True, 'is_trained': True}
+[API] Models ready. Webcam will open when teacher starts a session.
+INFO:     127.0.0.1:54858 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56206 - "OPTIONS /api/alerts/6db2e65f-fd22-4cd7-baab-873f202871ff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55642 - "OPTIONS /api/attendance/6db2e65f-fd22-4cd7-baab-873f202871ff/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54048 - "OPTIONS /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56206 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54048 - "GET /api/alerts/6db2e65f-fd22-4cd7-baab-873f202871ff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55642 - "GET /api/attendance/6db2e65f-fd22-4cd7-baab-873f202871ff/roster?phase=live HTTP/1.1" 200 OK
+Successfully loaded facial data for Smoke Test Student (SMOKE8784).
+Successfully loaded facial data for vamshi (p6).
+Successfully loaded facial data for vaishu (p5).
+Successfully loaded facial data for balammaa (14).
+AI Model successfully trained on registered students.
+INFO:     127.0.0.1:49672 - "POST /api/students/retrain HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58822 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55816 - "GET /api/alerts/6db2e65f-fd22-4cd7-baab-873f202871ff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51028 - "GET /api/attendance/6db2e65f-fd22-4cd7-baab-873f202871ff/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55717 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55717 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55717 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51028 - "GET /api/alerts/6db2e65f-fd22-4cd7-baab-873f202871ff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55816 - "GET /api/attendance/6db2e65f-fd22-4cd7-baab-873f202871ff/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55816 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55717 - "GET /api/alerts/6db2e65f-fd22-4cd7-baab-873f202871ff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55717 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55816 - "GET /api/alerts/6db2e65f-fd22-4cd7-baab-873f202871ff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51028 - "GET /api/attendance/6db2e65f-fd22-4cd7-baab-873f202871ff/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51028 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55717 - "GET /api/alerts/6db2e65f-fd22-4cd7-baab-873f202871ff HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55816 - "GET /api/attendance/6db2e65f-fd22-4cd7-baab-873f202871ff/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55816 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61291 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50305 - "OPTIONS /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51116 - "OPTIONS /api/students HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59309 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54935 - "OPTIONS /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55584 - "OPTIONS /api/students HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54108 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:63712 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54910 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:63712 - "OPTIONS /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54108 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54910 - "OPTIONS /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63494 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53325 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54108 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63494 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62997 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63494 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63494 - "OPTIONS /api/sessions/start HTTP/1.1" 200 OK
+
+--- Starting Webcam Activity Monitor (session-controlled) ---
+[INFO] Physical webcam opened — continuous capture active.
+INFO:     127.0.0.1:63494 - "POST /api/sessions/start HTTP/1.1" 201 Created
+INFO:     127.0.0.1:63494 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63494 - "OPTIONS /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52428 - "OPTIONS /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64868 - "OPTIONS /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52894 - "GET /api/monitoring/stream HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63232 - "GET /api/students/fa3d7fbe-b0ed-43df-9767-b804e0a6fead/face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51098 - "GET /api/students/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f/face HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62529 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55227 - "GET /api/students/bc167f02-b13a-478a-95a1-6ed181c8a270/face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56091 - "GET /api/students/a0a758c8-ab6d-41ea-8d14-b31385cee1bb/face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57227 - "GET /api/students/f88172a2-0a0c-4c11-bd36-f7803b9e6939/face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:15:32] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:55281 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+[14:15:55] STATUS CHANGED -> UNKNOWN
+INFO:     127.0.0.1:56805 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:15:56] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:53646 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57828 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57828 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+[14:15:58] STATUS CHANGED -> UNNECESSARY ACTIVITY
+INFO:     127.0.0.1:62529 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:15:59] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:53646 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57828 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "OPTIONS /api/sessions/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+--- Camera Released. Session Ended ---
+[INFO] Webcam monitoring stopped; camera released.
+INFO:     127.0.0.1:56805 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59501 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "POST /api/sessions/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53646 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59501 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55281 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56113 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "OPTIONS /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56113 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62815 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56555 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56113 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62815 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56555 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62815 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56113 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56113 - "OPTIONS /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56113 - "OPTIONS /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/alerts/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56555 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62815 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56113 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56555 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56555 - "OPTIONS /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56555 - "OPTIONS /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56555 - "OPTIONS /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56555 - "OPTIONS /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56555 - "OPTIONS /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56555 - "OPTIONS /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63827 - "OPTIONS /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56805 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62815 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56113 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62529 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63827 - "PUT /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/student/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63827 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63827 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63827 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56011 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62078 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61307 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63761 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63827 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56011 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62078 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61307 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63761 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "POST /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:63827 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56011 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "POST /api/students/ HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:62078 - "GET /api/attendance/1f6e26b6-46b0-4c55-b2c0-bf4dc638b69c/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54938 - "POST /api/students HTTP/1.1" 307 Temporary Redirect
+Successfully loaded facial data for Smoke Test Student (SMOKE8784).
+Successfully loaded facial data for vamshi (p6).
+Successfully loaded facial data for vaishu (p5).
+Successfully loaded facial data for balammaa (14).
+Successfully loaded facial data for vaishnavi (a66p5).
+AI Model successfully trained on registered students.
+[Students] Enrolled vaishnavi. Retrain: {'registered': 5, 'skipped': 1, 'trained': True, 'is_trained': True}
+INFO:     127.0.0.1:54938 - "POST /api/students/ HTTP/1.1" 201 Created
+INFO:     127.0.0.1:54938 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:54938 - "GET /api/students/ HTTP/1.1" 200 OK
+
+--- Starting Webcam Activity Monitor (session-controlled) ---
+[INFO] Physical webcam opened — continuous capture active.
+INFO:     127.0.0.1:59223 - "POST /api/sessions/start HTTP/1.1" 201 Created
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "OPTIONS /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63401 - "OPTIONS /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63401 - "OPTIONS /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+Success: Marked attendance for student ID fa3d7fbe-b0ed-43df-9767-b804e0a6fead with confidence 6.72%.
+INFO:     127.0.0.1:59223 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:18:31] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:51461 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54484 - "GET /api/students/fbc84104-9bf5-4f7a-9e4c-ddfd183ddd1f/face HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55558 - "GET /api/students/ddf3475a-3a9e-4a4c-a0be-3f8c85fc2c65/face HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:18:47] STATUS CHANGED -> LOOKING AWAY
+INFO:     127.0.0.1:59223 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:18:49] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+Success: Marked attendance for student ID a0a758c8-ab6d-41ea-8d14-b31385cee1bb with confidence 8.74%.
+INFO:     127.0.0.1:49679 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:19:36] STATUS CHANGED -> LOOKING AWAY
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+[14:19:40] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51461 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61361 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61361 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61361 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61361 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61361 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57892 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57892 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57892 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59223 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57892 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57892 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63143 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57892 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57892 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57892 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57892 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57892 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:20:34] STATUS CHANGED -> SLEEPING
+INFO:     127.0.0.1:57841 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:20:36] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+[14:20:39] STATUS CHANGED -> UNNECESSARY ACTIVITY
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:20:39] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:64886 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49679 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62559 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55965 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55965 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50423 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50423 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62559 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64886 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64433 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64433 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64433 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64433 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57841 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64433 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64433 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64433 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64433 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64433 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58224 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58224 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58224 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58224 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58224 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63550 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61986 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63550 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63550 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55028 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63550 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63550 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55028 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55028 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55028 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63550 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52921 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+[14:22:27] STATUS CHANGED -> LOOKING AWAY
+INFO:     127.0.0.1:63550 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52921 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63550 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63550 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63304 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63550 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53415 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63550 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53415 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:22:44] STATUS CHANGED -> NORMAL
+[14:22:45] STATUS CHANGED -> LOOKING AWAY
+INFO:     127.0.0.1:58798 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53415 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63550 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:22:48] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53016 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+[14:22:48] STATUS CHANGED -> LOOKING AWAY
+[14:22:49] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:53016 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60532 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53016 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:23:11] STATUS CHANGED -> LOOKING AWAY
+INFO:     127.0.0.1:50527 - "OPTIONS /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:23:21] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:50527 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:23:22] STATUS CHANGED -> LOOKING AWAY
+INFO:     127.0.0.1:58174 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+[14:23:23] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:54959 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58174 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58174 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58174 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58174 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:23:32] STATUS CHANGED -> PHONE USAGE
+INFO:     127.0.0.1:54959 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58174 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58174 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58174 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58174 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58174 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:23:49] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:58174 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58174 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58174 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58174 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54959 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50527 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:24:22] STATUS CHANGED -> PHONE USAGE
+INFO:     127.0.0.1:53653 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:24:26] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:53653 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:24:27] STATUS CHANGED -> LOOKING AWAY
+INFO:     127.0.0.1:57678 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:24:34] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:58857 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:24:46] STATUS CHANGED -> UNKNOWN
+INFO:     127.0.0.1:53653 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:24:47] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:57678 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57678 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53653 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:25:21] STATUS CHANGED -> LOOKING AWAY
+INFO:     127.0.0.1:58857 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+[14:25:24] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:52081 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61816 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61816 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61816 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61816 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61816 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58857 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61816 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61816 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61816 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61816 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61816 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61816 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:26:03] STATUS CHANGED -> LOOKING AWAY
+[14:26:03] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:60673 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+[14:26:04] STATUS CHANGED -> LOOKING AWAY
+[14:26:05] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:51380 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+[14:26:09] STATUS CHANGED -> LOOKING AWAY
+INFO:     127.0.0.1:51380 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:26:11] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:52081 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+[14:26:16] STATUS CHANGED -> LOOKING AWAY
+INFO:     127.0.0.1:60673 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:26:24] STATUS CHANGED -> UNNECESSARY ACTIVITY
+INFO:     127.0.0.1:60673 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:26:25] STATUS CHANGED -> NORMAL
+[14:26:26] STATUS CHANGED -> LOOKING AWAY
+INFO:     127.0.0.1:51380 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+[14:26:29] STATUS CHANGED -> NORMAL
+[14:26:31] STATUS CHANGED -> LOOKING AWAY
+INFO:     127.0.0.1:51380 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+[14:26:37] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:60673 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:26:41] STATUS CHANGED -> UNKNOWN
+INFO:     127.0.0.1:60673 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52081 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+[14:26:46] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:51380 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60673 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+[14:26:57] STATUS CHANGED -> UNKNOWN
+INFO:     127.0.0.1:51380 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56414 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56414 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56414 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+[14:27:03] STATUS CHANGED -> NORMAL
+INFO:     127.0.0.1:51380 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "OPTIONS /api/sessions/bbeaed02-bd6d-4c82-858b-9926b3c3f983/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56414 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+--- Camera Released. Session Ended ---
+[INFO] Webcam monitoring stopped; camera released.
+INFO:     127.0.0.1:56414 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62524 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "POST /api/sessions/bbeaed02-bd6d-4c82-858b-9926b3c3f983/stop HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56414 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56414 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54038 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/alerts/bbeaed02-bd6d-4c82-858b-9926b3c3f983 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56414 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=live HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62676 - "OPTIONS /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/student/f88172a2-0a0c-4c11-bd36-f7803b9e6939 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62676 - "PUT /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/student/f88172a2-0a0c-4c11-bd36-f7803b9e6939 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62676 - "OPTIONS /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62676 - "GET /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/roster?phase=review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60463 - "OPTIONS /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/submit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60463 - "POST /api/attendance/bbeaed02-bd6d-4c82-858b-9926b3c3f983/submit HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62019 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51318 - "OPTIONS /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60210 - "OPTIONS /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56557 - "OPTIONS /api/students HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54859 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63838 - "OPTIONS /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60738 - "OPTIONS /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49923 - "OPTIONS /api/students HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50489 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51550 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50489 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:58534 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51550 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61344 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50489 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51550 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51033 - "OPTIONS /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51033 - "OPTIONS /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51033 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57530 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56380 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51033 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57697 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64510 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51033 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57697 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57697 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51033 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58558 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56005 - "OPTIONS /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64384 - "OPTIONS /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55244 - "OPTIONS /api/students HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53151 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53059 - "OPTIONS /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61720 - "OPTIONS /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62274 - "OPTIONS /api/students HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:55357 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61720 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62109 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50847 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61720 - "OPTIONS /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55357 - "OPTIONS /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51726 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62109 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50847 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55357 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50847 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58825 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61110 - "OPTIONS /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63424 - "OPTIONS /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49367 - "OPTIONS /api/students HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65404 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53061 - "OPTIONS /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51351 - "OPTIONS /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54220 - "OPTIONS /api/students HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56813 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:61078 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56813 - "OPTIONS /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51757 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:49367 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63731 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58664 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51757 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63731 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52310 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:59436 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49762 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:56323 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50385 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64888 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56323 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50385 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52310 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54331 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53447 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59782 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:53447 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:59635 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57652 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63638 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53447 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59635 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59782 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56153 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65171 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60598 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50515 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51440 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64692 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53399 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50515 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64692 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65171 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64692 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62377 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:56549 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52380 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56549 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64819 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58803 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56549 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64819 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62377 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62377 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63741 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52753 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:63741 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:49897 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56844 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59827 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49897 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56844 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52753 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56844 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54301 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:49378 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52692 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:49855 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64732 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51779 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52692 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64732 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54301 - "GET /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56964 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62355 - "OPTIONS /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64268 - "OPTIONS /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54734 - "OPTIONS /api/students HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62184 - "OPTIONS /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57639 - "OPTIONS /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53083 - "OPTIONS /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59275 - "OPTIONS /api/students HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57784 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52920 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57784 - "OPTIONS /api/students/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51532 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:58670 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54627 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59748 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54627 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58670 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55293 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62870 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50420 - "GET /api/students HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:61783 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52806 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57318 - "GET /api/monitoring/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50420 - "GET /api/monitoring/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52806 - "GET /api/monitoring/status HTTP/1.1" 200 OK

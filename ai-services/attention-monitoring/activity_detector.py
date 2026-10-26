@@ -65,7 +65,7 @@ class ClassroomActivityDetector:
         else:
             self.haar_cascade = None
 
-        # 2. Initialize MediaPipe Face Mesh
+        # 2. Initialize MediaPipe Face Mesh (reuse — never recreate per frame)
         self.mp_face_mesh = mp.solutions.face_mesh
         self.face_mesh = self.mp_face_mesh.FaceMesh(
             static_image_mode=self.static_image_mode,
@@ -73,6 +73,14 @@ class ClassroomActivityDetector:
             refine_landmarks=True,
             min_detection_confidence=0.3,
             min_tracking_confidence=0.3
+        )
+        # Separate static mesh for Haar-crop fallback (created once)
+        self.face_mesh_roi = self.mp_face_mesh.FaceMesh(
+            static_image_mode=True,
+            max_num_faces=1,
+            refine_landmarks=False,
+            min_detection_confidence=0.1,
+            min_tracking_confidence=0.1,
         )
         
         # 3. Lazy-loaded YOLO object detector for cell phones
@@ -257,8 +265,7 @@ class ClassroomActivityDetector:
                 
                 roi = rgb_frame[y1:y2, x1:x2]
                 if roi.size > 0:
-                    roi_mesh = self.mp_face_mesh.FaceMesh(static_image_mode=True, max_num_faces=1, min_detection_confidence=0.1)
-                    roi_res = roi_mesh.process(roi)
+                    roi_res = self.face_mesh_roi.process(roi)
                     if roi_res and roi_res.multi_face_landmarks:
                         landmarks = roi_res.multi_face_landmarks[0].landmark
                         target_w, target_h = (x2 - x1), (y2 - y1)

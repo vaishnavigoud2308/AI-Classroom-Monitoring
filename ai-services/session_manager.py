@@ -23,6 +23,37 @@ class MonitoringSessionManager:
             self.supabase = None
         self.session_id = None
         self.teacher_id = None
+        # In-memory tracking of submitted/finalized sessions: session_id -> metadata
+        self.finalized_sessions = {}
+
+    def finalize_session(self, session_id, teacher_id=None, submitted_at=None):
+        """Marks a session attendance as finalized in-memory and returns metadata."""
+        if not submitted_at:
+            submitted_at = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        self.finalized_sessions[session_id] = {
+            "session_id": session_id,
+            "submitted_at": submitted_at,
+            "teacher_id": teacher_id or self.teacher_id,
+        }
+        return self.finalized_sessions[session_id]
+
+    def is_session_finalized(self, session_id):
+        """Checks if a session attendance has already been finalized/submitted."""
+        if not session_id:
+            return False
+        if session_id in self.finalized_sessions:
+            return True
+        if self.supabase:
+            try:
+                res = self.supabase.table("class_sessions").select("attendance_finalized").eq("id", session_id).execute()
+                if res.data and len(res.data) > 0:
+                    val = res.data[0].get("attendance_finalized")
+                    if bool(val):
+                        self.finalized_sessions[session_id] = {"session_id": session_id, "submitted_at": None}
+                        return True
+            except Exception:
+                pass
+        return False
         
     def start_or_get_session(self, teacher_name="Demo Teacher", subject="Live Monitoring API", classroom="Room API-01"):
         """

@@ -14,4 +14,7 @@ class SessionResponse(BaseModel):
     classroom: str
     start_time: datetime
     end_time: Optional[datetime] = None
+    attendance_finalized: Optional[bool] = False
+    attendance_submitted_at: Optional[datetime] = None
     created_at: datetime
+

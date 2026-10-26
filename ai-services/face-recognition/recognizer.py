@@ -47,9 +47,10 @@ class FaceRecognizer:
         self.labels_data = []
         
         self.is_trained = False
-        # Tolerance distance threshold for LBPH. Lower distance is a better match. 
-        # Usually distances < 60-70 mean a relatively solid match.
-        self.tolerance = 65.0 
+        # LBPH distance threshold — webcam vs enrolled photo needs a looser match
+        # (lower distance = better). Typical good matches are < 80-90.
+        self.tolerance = 95.0
+        self.face_size = (120, 120) 
 
     def _extract_face_roi(self, image_path=None, frame=None):
         """Helper function to load an image, convert to grayscale, and crop out the face region."""
@@ -68,18 +69,23 @@ class FaceRecognizer:
         # LBPH requires grayscale images
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         
-        # Detect face coordinates
+        # Detect face coordinates — slightly more permissive for live webcam
         faces = self.face_detector.detectMultiScale(
-            gray, scaleFactor=1.1, minNeighbors=5, minSize=(40, 40)
+            gray, scaleFactor=1.1, minNeighbors=4, minSize=(40, 40)
         )
         
         if len(faces) == 0:
             return None
             
-        # For the MVP, we assume a single face is in the image, so we pick the first one
-        (x, y, w, h) = faces[0]
-        # Return the cropped grayscale facial region
-        return gray[y:y+h, x:x+w]
+        # For the MVP, we assume a single face is in the image, so we pick the largest one
+        (x, y, w, h) = max(faces, key=lambda f: f[2] * f[3])
+        # Return the cropped grayscale facial region, normalized for LBPH
+        roi = gray[y:y+h, x:x+w]
+        try:
+            roi = cv2.resize(roi, self.face_size)
+        except Exception:
+            return None
+        return roi
 
     def register_student(self, student_id, name, roll_number, image_path):
         """

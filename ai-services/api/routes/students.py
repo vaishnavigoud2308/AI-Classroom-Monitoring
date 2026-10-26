@@ -15,8 +15,14 @@ if api_dir not in sys.path:
 
 from schemas.student import StudentResponse, StudentCreateRequest  # type: ignore
 from dependencies import get_db  # type: ignore
-from face_registry import face_path_for_student, rebuild_recognizer, ensure_faces_dir  # type: ignore
+from face_registry import (  # type: ignore
+    face_path_for_student,
+    rebuild_recognizer,
+    ensure_faces_dir,
+    resolve_face_path,
+)
 import runtime as runtime_state  # type: ignore
+from fastapi.responses import FileResponse
 
 router = APIRouter()
 
@@ -58,6 +64,20 @@ def list_students(db=Depends(get_db)):
         return res.data
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/{student_id}/face")
+def get_student_face(student_id: str, db=Depends(get_db)):
+    """Serve the enrolled face image used by LBPH attendance matching."""
+    if not db:
+        raise HTTPException(status_code=500, detail="Database connection missing.")
+    res = db.table("students").select("id,face_image_url").eq("id", student_id).execute()
+    if not res.data:
+        raise HTTPException(status_code=404, detail="Student not found.")
+    path = resolve_face_path(res.data[0].get("face_image_url"), student_id)
+    if not path or not os.path.exists(path):
+        raise HTTPException(status_code=404, detail="Enrolled face image not found.")
+    return FileResponse(path, media_type="image/jpeg")
 
 
 @router.get("/{student_id}", response_model=StudentResponse)

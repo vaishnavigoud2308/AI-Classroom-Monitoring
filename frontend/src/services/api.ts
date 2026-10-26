@@ -15,7 +15,9 @@ async function fetchAPI(endpoint: string, options?: RequestInit) {
       let detail = `API Error: ${res.status}`;
       try {
         const body = await res.json();
-        if (body?.detail) detail = typeof body.detail === "string" ? body.detail : JSON.stringify(body.detail);
+        if (body?.detail)
+          detail =
+            typeof body.detail === "string" ? body.detail : JSON.stringify(body.detail);
       } catch {
         /* ignore */
       }
@@ -66,11 +68,26 @@ export async function getMonitoringStatus() {
   return fetchAPI("/monitoring/status");
 }
 
+export async function startAudioMonitoring() {
+  return fetchAPI("/monitoring/audio/start", { method: "POST" });
+}
+
+export async function stopAudioMonitoring() {
+  return fetchAPI("/monitoring/audio/stop", { method: "POST" });
+}
+
+export async function getAudioMonitoringStatus() {
+  return fetchAPI("/monitoring/audio/status");
+}
+
 export async function getAlerts(sessionId: string) {
   return fetchAPI(`/alerts/${sessionId}`);
 }
 
-export async function updateAlertStatus(alertId: string, status: "New" | "Reviewed" | "Dismissed") {
+export async function updateAlertStatus(
+  alertId: string,
+  status: "New" | "Reviewed" | "Dismissed"
+) {
   return fetchAPI(`/alerts/item/${alertId}`, {
     method: "PATCH",
     body: JSON.stringify({ status }),
@@ -81,10 +98,39 @@ export async function getAttendance(sessionId: string) {
   return fetchAPI(`/attendance/${sessionId}`);
 }
 
-export async function correctAttendance(attendanceId: string, status: "Present" | "Absent" | "Late") {
+export async function getAttendanceRoster(
+  sessionId: string,
+  phase?: "live" | "review"
+) {
+  const q = phase ? `?phase=${phase}` : "";
+  return fetchAPI(`/attendance/${sessionId}/roster${q}`);
+}
+
+export async function correctAttendance(
+  attendanceId: string,
+  status: "Present" | "Absent" | "Late"
+) {
   return fetchAPI(`/attendance/item/${attendanceId}`, {
     method: "PATCH",
     body: JSON.stringify({ status }),
+  });
+}
+
+export async function upsertStudentAttendance(
+  sessionId: string,
+  studentId: string,
+  status: "Present" | "Absent" | "Late"
+) {
+  return fetchAPI(`/attendance/${sessionId}/student/${studentId}`, {
+    method: "PUT",
+    body: JSON.stringify({ status }),
+  });
+}
+
+export async function submitAttendance(sessionId: string, teacher_email?: string) {
+  return fetchAPI(`/attendance/${sessionId}/submit`, {
+    method: "POST",
+    body: JSON.stringify({ teacher_email }),
   });
 }
 
@@ -106,4 +152,13 @@ export async function createStudent(payload: {
 
 export async function retrainFaces() {
   return fetchAPI(`/students/retrain`, { method: "POST" });
+}
+
+/** Live MJPEG from the SAME backend webcam used for attendance (no second camera). */
+export function getLiveStreamUrl() {
+  return `${API_BASE}/monitoring/stream`;
+}
+
+export function getStudentFaceUrl(studentId: string) {
+  return `${API_BASE}/students/${studentId}/face`;
 }

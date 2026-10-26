@@ -58,6 +58,11 @@ class AlertEngine:
                 "message": "Possible Prolonged Discussion",
                 "enabled_flag": "talking_detection_enabled",
                 "cooldown_attr": "cooldown_prolonged_discussion"
+            },
+            "excessive_noise": {
+                "message": "Excessive Classroom Noise Detected",
+                "enabled_flag": "audio_monitoring_enabled",
+                "cooldown_attr": "cooldown_excessive_noise"
             }
         }
 
@@ -68,8 +73,8 @@ class AlertEngine:
         
         event_payload example:
         {
-          "student_id": "uuid-here",
-          "activity": "phone_usage",
+          "student_id": "uuid-here" | None,
+          "activity": "excessive_noise" | "phone_usage",
           "confidence": 95.0,
           "details": {...},
           "timestamp": "iso-time"
@@ -96,8 +101,9 @@ class AlertEngine:
             return False
 
         # 3. Cooldown check
-        cache_key = (student_id, activity)
-        last_alert_time = self._cooldown_cache.get(cache_key, 0.0)
+        # For room-wide alerts without student_id, key on ("CLASSROOM_WIDE", activity)
+        cache_key = (student_id if student_id not in ("UNKNOWN_STUDENT", None, "") else "CLASSROOM_WIDE", activity)
+        last_alert_time = self._cooldown_cache.get(cache_key, -float("inf"))
         cooldown_duration = getattr(self.config, mapping["cooldown_attr"], 60.0)
 
         if (current_time - last_alert_time) < cooldown_duration:
@@ -112,10 +118,10 @@ class AlertEngine:
             try:
                 row = {
                     "session_id": session_id,
-                    "student_id": student_id if student_id != "UNKNOWN_STUDENT" else None,
+                    "student_id": student_id if student_id not in ("UNKNOWN_STUDENT", None, "") else None,
                     "alert_type": activity,
                     "description": description,
-                    "confidence": confidence,
+                    "confidence": float(min(100.0, max(0.0, float(confidence)))) if confidence is not None else None,
                     "status": "New",
                     "created_at": datetime.datetime.now(datetime.timezone.utc).isoformat()
                 }
